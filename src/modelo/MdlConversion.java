@@ -3,7 +3,7 @@ package modelo;
 public class MdlConversion {
 
     public Double aCentigrados(Double fahrenheit) {
-        Double centigrados = (fahrenheit - 32) / 1.8;
+        Double centigrados = (fahrenheit - 30) / 1.8;
         return centigrados;
     }
 
